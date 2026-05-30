@@ -1,6 +1,6 @@
->> 8-Bit Serial Adder (SA-8) | Full Custom VLSI Design
+## 8-Bit Serial Adder (SA-8) | Full Custom VLSI Design
 
-> Overview
+# Overview
 
 This project presents the complete custom VLSI implementation of an 8-Bit Serial Adder (SA-8) designed using Cadence Virtuoso.
 
@@ -8,7 +8,7 @@ The project covers the entire custom IC design flow including transistor-level s
 
 The architecture performs serial addition of two 8-bit operands and produces a 9-bit result including carry-out.
 
->> Architecture
+## Architecture
 
 The design consists of:
 
@@ -21,13 +21,13 @@ The design consists of:
 
 The complete addition operation is performed in 35 clock cycles.
 
->> Physical Design Highlights
+## Physical Design Highlights
 
 During post-layout analysis, significant routing parasitics were observed on critical interconnect paths.
 
 To improve performance, routing optimization was performed by refining CLK, CLR, VDD, and GND networks and reducing unnecessary metal overlap. These optimizations reduced extracted parasitic capacitance from approximately 8000 units to around 5500 units while also reducing current consumption.
 
->> Post-Layout Results
+## Post-Layout Results
 
 | Parameter            | Value      |
 | -------------------- | ---------- |
@@ -40,7 +40,7 @@ To improve performance, routing optimization was performed by refining CLK, CLR,
 | DRC Status           | Clean      |
 | LVS Status           | Matched    |
 
->> Verification
+## Verification
 
 * DRC Verification Passed
 * LVS Verification Passed
@@ -48,7 +48,7 @@ To improve performance, routing optimization was performed by refining CLK, CLR,
 * Hold Time Requirements Satisfied
 * Post-Layout Timing Verified
 
->> Tools Used
+## Tools Used
 
 * Cadence Virtuoso
 * Cadence Maestro
@@ -56,17 +56,17 @@ To improve performance, routing optimization was performed by refining CLK, CLR,
 * DRC
 * LVS
 
->> Team Members
+## Team Members
 
 * Om Hirapara
 * Aum Bavarva
 * Preet Patel
 
->> Acknowledgements
+## Acknowledgements
 
 We would like to thank Prof. Biswajit and Prof. Purvi Man for their guidance and support throughout the project.
 
->> Report
+## Report
 
 The complete project report is available in the Report folder.
 
