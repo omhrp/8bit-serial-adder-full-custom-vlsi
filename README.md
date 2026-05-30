@@ -66,7 +66,9 @@ To improve performance, routing optimization was performed by refining CLK, CLR,
 
 We would like to thank Prof. Biswajit and Prof. Purvi Man for their guidance and support throughout the project.
 
-## Report
+## Project Report
 
-The complete project report is available in the Report folder.
+The complete project report is available below:
+
+📄 [SA8 Post Layout Report](./SA8_Post_Layout_Report.pdf)
 
